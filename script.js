@@ -1325,3 +1325,4 @@ window.addEventListener('orientationchange', () => {
   setTimeout(checkOrientation, 200);
 
 });
+
