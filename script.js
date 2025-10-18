@@ -819,7 +819,7 @@ let galaxyAudio = null;
 
 function preloadGalaxyAudio() {
   const audioSources = [
-   "AE THEM NHAC TUY NHA"
+   "./audio/galaxy-theme.mp3"
   ];
 
   const randomIndex = Math.floor(Math.random() * audioSources.length);
@@ -1323,4 +1323,5 @@ window.addEventListener('resize', checkOrientation);
 window.addEventListener('orientationchange', () => {
   // Thêm độ trễ để trình duyệt cập nhật kích thước chính xác
   setTimeout(checkOrientation, 200);
+
 });
